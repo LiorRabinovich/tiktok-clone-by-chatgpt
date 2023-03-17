@@ -1,0 +1,30 @@
+.side-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+    bottom: 80px;
+  }
+  
+  .side-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .icon-heart,
+  .icon-comment,
+  .icon-share {
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .side-button-count {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 4px;
+  }
+  

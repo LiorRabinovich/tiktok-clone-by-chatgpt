@@ -1,0 +1,42 @@
+html,body, #root, .app, .video-feed {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0 auto;
+  font-family: Open Sans Hebrew;
+}
+
+/* Video styles */
+.video {
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .video video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .video-description {
+    position: absolute;
+    bottom: 140px;
+    left: 0;
+    padding: 1rem;
+    color: white;
+  }
+  
+  /* VideoFeed styles */
+  .video-feed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    height: 100%;
+  }
+  

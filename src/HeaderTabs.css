@@ -1,0 +1,31 @@
+.header-tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    right: 0;
+    z-index: 100;
+    width: 200px;
+    transform: translateX(-50%);
+  }
+  
+  .header-tab {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .header-tab.active {
+    color: #fff;
+    border-bottom: 3px solid #ff2d55;
+  }
+  
